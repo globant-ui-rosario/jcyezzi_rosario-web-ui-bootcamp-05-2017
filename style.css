@@ -20,6 +20,19 @@ html {
 /* Sections
    ========================================================================== */
 
+div#bigbox {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+div#nextbox {
+  width: 50%;
+  height: auto;
+  
+  margin: auto;
+}
+
 /**
  * Remove the margin in all browsers (opinionated).
  */
@@ -38,10 +51,13 @@ article {
 }
 
 aside {
+  float: right;
   background-color: #5858FA;
   text-align: right;
   display: block;
   margin-right: 2%;
+  width: 13%;
+  height: auto;
 }
 footer {
   background-color: #58FA82;
@@ -62,6 +78,7 @@ header {
 }
 
 nav {
+  float: left;
   background-color: #FA8258;
   text-align: left;
   display: block;
