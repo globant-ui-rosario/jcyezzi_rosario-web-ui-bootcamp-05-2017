@@ -29,9 +29,40 @@ div#bigbox {
 div#nextbox {
   width: 50%;
   height: auto;
-  
   margin: auto;
 }
+
+.header {
+  font-size: 46px;
+  background-color: magenta;
+}
+
+.footer {
+  font-size: 10px;
+  background-color: magenta;
+}
+
+.content {
+  font-size: 14px;
+}
+
+.navigation {
+  font-size: 12px;
+  background-color: blue;
+}
+
+.sidebar {
+  font-size: 10px;
+  background-color: magenta;
+}
+
+/*  
+    2.3-6) If you want to gain weight in the global source you have to use the tag * (asterisk)
+    2.3-7) If you want to change the background color without changing the style you have to use the label !important
+    .oh-no-inline-styles{
+      background: green !important;
+    }
+*/
 
 /**
  * Remove the margin in all browsers (opinionated).
@@ -59,6 +90,7 @@ aside {
   width: 13%;
   height: auto;
 }
+
 footer {
   background-color: #58FA82;
   text-align: center;
