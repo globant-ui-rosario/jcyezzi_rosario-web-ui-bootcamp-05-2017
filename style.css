@@ -56,6 +56,24 @@ div#nextbox {
   background-color: magenta;
 }
 
+@media screen and (max-width: 480px){
+  .navigation {
+    background-color: grey;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+  .footer {
+    background-color: red;
+  }
+}
+
+@media screen and (min-width: 769px){
+  .sidebar {
+    background-color: green;
+  }
+}
+
 /*  
     2.3-6) If you want to gain weight in the global source you have to use the tag * (asterisk)
     2.3-7) If you want to change the background color without changing the style you have to use the label !important
