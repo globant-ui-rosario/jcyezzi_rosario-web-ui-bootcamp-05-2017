@@ -34,12 +34,12 @@ div#nextbox {
 
 .header {
   font-size: 46px;
-  background-color: magenta;
+  background-color: #cc0099;
 }
 
 .footer {
   font-size: 10px;
-  background-color: magenta;
+  background-color: #cc0099;
 }
 
 .content {
@@ -48,29 +48,29 @@ div#nextbox {
 
 .navigation {
   font-size: 12px;
-  background-color: blue;
+  background-color: #0000ff;
 }
 
 .sidebar {
   font-size: 10px;
-  background-color: magenta;
+  background-color: #cc0099;
 }
 
 @media screen and (max-width: 480px){
   .navigation {
-    background-color: grey;
+    background-color: #808080;
   }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px){
   .footer {
-    background-color: red;
+    background-color: #ff0000;
   }
 }
 
 @media screen and (min-width: 769px){
   .sidebar {
-    background-color: green;
+    background-color: #00cc00;
   }
 }
 
@@ -78,7 +78,7 @@ div#nextbox {
     2.3-6) If you want to gain weight in the global source you have to use the tag * (asterisk)
     2.3-7) If you want to change the background color without changing the style you have to use the label !important
     .oh-no-inline-styles{
-      background: green !important;
+      background: #00cc00 !important;
     }
 */
 
