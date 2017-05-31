@@ -17,11 +17,15 @@
 	<body align="center">
 
 		<form name="Sing_Up" action="exercise_1-4.html" method="get">
-			<label type="text" name="txtfname" size="30" maxlength="12">First Name...</label>
-			<label type="text" name="txtlname" size="30" maxlength="20">Last Name...</label>
+			<label for="txtfname">First Name</label>
+				<input type="text" name="txtfname" id="txtfname" size="30" maxlength="12" placeholder="First Name">
+			<label for="txtlname">Last Name</label>
+				<input type="text" name="txtlname" id="txtlname" size="30" maxlength="20" placeholder="Last Name">
 				<br><br>
-			<label type="text" name="txtemail" size="30" maxlength="35">Email...</label>
-			<label type="text" name="txtbrtd" size="30" maxlength="10">Birthday...</label>
+			<label for="txtemail">Email</label>
+				<input type="text" name="txtemail" id="txtemail" size="30" maxlength="35" placeholder="Email">
+			<label for="txtbrtd">Birthday</label>
+				<input type="text" name="txtbrtd" id="txtbrtd" size="30" maxlength="10" placeholder="Birthday">
 				<br><br>
 			<select name="Sports" size="3" multiple>
 				<option value="FB">Football</option>
