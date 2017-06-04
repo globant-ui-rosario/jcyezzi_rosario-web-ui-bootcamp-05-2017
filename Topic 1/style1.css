@@ -1,0 +1,12 @@
+.off {
+	opacity: 0;
+	transition: opacity 2s;
+}
+
+.on {
+ 	opacity: 1;
+ }
+
+section {
+	text-align: center;
+}
